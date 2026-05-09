@@ -52,6 +52,17 @@ int main() {
         printf("Esquerda\n");
         contadorrainha++;
     }while (contadorrainha < casarainha);
+
+    //MOVENDO O CAVALO DUAS VEZES PARA BAIXO E UMA PRA ESQUERDA FOR / WHILE
+    printf("====== MOVIMENTO DO CAVALO ======\n");
+    int contadorcavalo = 0;
+    for (int i = 1; i <= 2; i++) {
+        printf("Baixo\n");
+    }
+    while (contadorcavalo < 1){
+        printf("Esquerda\n");
+        contadorcavalo++;
+    }
     
     return 0;
 }
